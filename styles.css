@@ -65,3 +65,23 @@ li {
     padding: 10px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
 }
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+}
+
+.rating>span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    font-size: 48px;
+    color: gold;
+}
+
+.rating>span:hover:before,
+.rating>span:hover~span:before {
+    content: "\2605";
+    position: absolute;
+}
