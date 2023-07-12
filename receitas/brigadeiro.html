@@ -1,5 +1,8 @@
 <main>
-    <div class="container">
+    <script src="reviewrecipe.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+    <div class="container" id="container">
         <link rel="stylesheet" href="../styles.css" />
         <h1 id='header'>Brigadeiro</h1>
         <img src='../imagens/brigadeiro.svg' alt='Ilustração vetorial de um brigadeiro'
@@ -19,7 +22,7 @@
                 <li>Chocolate granulado (a gosto)</li>
             </ul>
         </div>
-        <div>
+        <div id='recipe'>
             <h4 class="recipe">Modo de preparo</h4>
             <h5 class="time">Tempo: 25min</h5>
             <ol>
@@ -28,8 +31,20 @@
                 <li>Deixe esfriar e faça pequenas bolas com a mão (untada) passando a massa no chocolate granulado.</li>
             </ol>
         </div>
+
+        <h1>Dê uma nota para esta delícia!</h1>
+        <div class="rating" id="starRating">
+            <span onclick="rate(1)">&#9734;</span>
+            <span onclick="rate(2)">&#9734;</span>
+            <span onclick="rate(3)">&#9734;</span>
+            <span onclick="rate(4)">&#9734;</span>
+            <span onclick="rate(5)">&#9734;</span>
+        </div>
+
         <a href="#header">Retornar ao topo</a>
         <p></p>
         <a href="../index.html">Retornar à página principal</a>
+
+
     </div>
 </main>
