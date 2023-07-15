@@ -4,8 +4,10 @@ services:
   app:
     build: .
     command: node app.js
-    environment:
-      - URI=mongodb://root:example@mongodb/
+    env_file:
+      - .env
+#    environment:
+#      - URI=mongodb://root:example@mongodb/
     ports:
       - 8080:8080
 
