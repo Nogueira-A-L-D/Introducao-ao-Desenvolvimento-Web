@@ -11,7 +11,7 @@
     "mongodb": "^5.7.0"
   },
   "scripts": {
-    "build": "install",
+    "build": "npm install",
     "serve": "node app.js"
   }
 }
