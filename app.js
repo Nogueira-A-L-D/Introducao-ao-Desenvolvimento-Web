@@ -3,10 +3,11 @@ const { MongoClient } = require('mongodb');
 const server = express();
 const { readFile } = require('fs').promises;
 const ejs = require('ejs');
-const uri = require("./atlas_uri");
-const port = 8080;
 
-const client = new MongoClient(uri);
+require('dotenv').config()
+
+const port = 8080;
+const client = new MongoClient(process.env.URI);
 const dataBaseName = "recipe_site";
 const collectionName = "recipes";
 
