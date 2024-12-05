@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "64b186c2054ee775ffe12d31"
+  },
+  "ingredientes": [
+    "1 caixa de leite condensado",
+    "7 colheres (de sopa) de achocolatado|Ou 4 colheres (de sopa) de chocolate em pó",
+    "1 colher (de sopa) de margarina sem sal",
+    "Chocolate granulado (a gosto)"
+  ],
+  "descricao": "Uma receita rápida e simples, uma sobremesa deliciosa",
+  "media_avaliacoes": 0,
+  "modo_de_preparo": [
+    "Em uma panela, acrescente o leite condensado, a margarina e o chocolate em pó.",
+    "Cozinhe em fogo médio e mexa até que o brigadeiro comece a desgrudar da panela.",
+    "Deixe esfriar e faça pequenas bolas com a mão (untada) passando a massa no chocolate granulado."
+  ],
+  "nome": "Brigadeiro",
+  "subtitulo": "Um dos maiores doces do Brasil",
+  "tempo_de_preparo": 25,
+  "total_avaliacoes": 0
+},
+{
+  "_id": {
+    "$oid": "64b186c2054ee775ffe12d32"
+  },
+  "ingredientes": [
+    "4 ovos",
+    "200ml de leite",
+    "250g de margarina sem sal",
+    "1 colher (de sopa) de açúcar",
+    "1 lata de creme de leite (sem soro)",
+    "250g de creme de amendoim (Amendocrem)",
+    "500g de bolacha de amido de milho (Maizena)"
+  ],
+  "descricao": "Receita prática para o inverno. Sem correria. Sem estresse.",
+  "media_avaliacoes": 0,
+  "modo_de_preparo": [
+    "Bata tudo em uma batedeira, até formar um creme homogêneo.",
+    "Molhe as bolachas no leite",
+    "Em um recipiente, coloque uma camada de creme, outra de bolacha, alternativamente, até terminar na camada de creme.",
+    "Deixe na geladeira por 4h e sirva-se."
+  ],
+  "nome": "Pavê de Creme de Amendoim",
+  "subtitulo": "Um pavê de minha tia é sempre o melhor.",
+  "tempo_de_preparo": 20,
+  "total_avaliacoes": 0
+},
+{
+  "_id": {
+    "$oid": "64b186c2054ee775ffe12d33"
+  },
+  "ingredientes": [
+    "4 ovos",
+    "200g de goiabada (cascão)",
+    "1 lata de leite condensado",
+    "1/2 xícara (de chá) de água",
+    "1 1/2 xícaras (de chá) de leite",
+    "1 xícara (de chá) de cream cheese",
+    "1/2 xícara (de chá) de queijo parmesão",
+    "2 colheres (de sopa) de amido de milho"
+  ],
+  "descricao": "Uma mescla entre doce e salgado. O que habita este ambiente?",
+  "media_avaliacoes": 0,
+  "modo_de_preparo": [
+    "Massa do pudim:",
+    "Bater no liquidificador ovos, leite condensado, leite, cream cheese, queijo parmesão e amido de milho.",
+    "Despejar a mistura em uma forma de furo no meio untada com manteiga e polvilhada com açúcar.",
+    "Leve ao forno em banho maria à 120° por, aproximadamente, 45 minutos.",
+    "Após firmar e ficar levemente dourado, retirar do forno, deixar esfriar e leve à geladeira por 4h.",
+    "Calda do pudim:",
+    "Pique a goiabada em cubos e leve ao fogo com água até dissolver e formar uma mistura homogênea.",
+    "Deixe esfriar, jogue sobre o pudim, já desinformado, e deguste o alimento."
+  ],
+  "nome": "Pudim - Romeu e Julieta",
+  "subtitulo": "Um sabor de drama clássico.",
+  "tempo_de_preparo": 60,
+  "total_avaliacoes": 0
+}]
