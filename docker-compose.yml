@@ -6,8 +6,8 @@ services:
     command: node app.js
     env_file:
       - .env
-#    environment:
-#      - URI=mongodb://root:example@mongodb/
+    environment:
+      - URI=mongodb://localhost:27017/
     ports:
       - 8080:8080
 
@@ -15,5 +15,5 @@ services:
     image: mongo:6.0.5
     restart: on-failure
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=root
-      - MONGO_INITDB_ROOT_PASSWORD=example
+      - MONGO_INITDB_ROOT_USERNAME = root
+      - MONGO_INITDB_ROOT_PASSWORD = example
